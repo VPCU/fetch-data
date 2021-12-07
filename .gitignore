@@ -1,5 +1,6 @@
 *.pkl
 *.npy
 *.npz
+*.pt
 **/.ipynb_checkpoints
 .vscode
