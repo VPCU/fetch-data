@@ -1,0 +1,23 @@
+nohup: ignoring input
+/home/haorui/miniconda3/envs/gmoco/lib/python3.6/site-packages/torch/nn/modules/rnn.py:54: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  "num_layers={}".format(dropout, num_layers))
+Epoch: 1, Loss: 0.646679, Acc:0.580976, Test loss: 0.647226, Test acc: 0.550581
+Epoch: 2, Loss: 0.641220, Acc:0.585750, Test loss: 0.640125, Test acc: 0.564739
+Epoch: 3, Loss: 0.637117, Acc:0.588785, Test loss: 0.655635, Test acc: 0.568759
+Epoch: 4, Loss: 0.631655, Acc:0.591319, Test loss: 0.642631, Test acc: 0.566683
+Epoch: 5, Loss: 0.631044, Acc:0.592822, Test loss: 0.664300, Test acc: 0.570084
+Epoch: 6, Loss: 0.629443, Acc:0.592218, Test loss: 0.647848, Test acc: 0.565733
+Epoch: 7, Loss: 0.627304, Acc:0.595326, Test loss: 0.653755, Test acc: 0.563701
+Epoch: 8, Loss: 0.626419, Acc:0.594781, Test loss: 0.654303, Test acc: 0.566771
+Epoch: 9, Loss: 0.625124, Acc:0.597242, Test loss: 0.651523, Test acc: 0.566263
+Epoch: 10, Loss: 0.624354, Acc:0.600262, Test loss: 0.651919, Test acc: 0.568229
+Traceback (most recent call last):
+  File "train/lstm.py", line 349, in <module>
+    print('Accuracy :', metrics.accuracy_score(Y_test, Y_pred_tag))
+  File "/home/haorui/miniconda3/envs/gmoco/lib/python3.6/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/home/haorui/miniconda3/envs/gmoco/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 202, in accuracy_score
+    y_type, y_true, y_pred = _check_targets(y_true, y_pred)
+  File "/home/haorui/miniconda3/envs/gmoco/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 93, in _check_targets
+    "and {1} targets".format(type_true, type_pred))
+ValueError: Classification metrics can't handle a mix of continuous and binary targets

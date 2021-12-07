@@ -1,0 +1,122 @@
+globals:
+  userid: jiaguo
+db:
+  monitor:
+    uid: keydriver
+    pwd: 12345678
+    host: 192.168.100.200
+    db_name: kd_monitor
+    port: 3306
+    db_type: mysql
+  factor:
+    uid: factor
+    pwd: EEE@qxxtg123
+    host: kd03
+    db_name: factor
+    port: 3306
+    db_type: mysql_db
+  factor_meta:
+    uid: factor
+    pwd: EEE@qxxtg123
+    host: kd03
+    db_name: kdbase #dadsf
+    port: 3306
+    db_type: mysql
+  kdbase:
+    uid: factor
+    pwd: EEE@qxxtg123
+    host: kd03
+    db_name: kdbase #dadsf
+    port: 3306
+    db_type: mysql
+  kdbase_01:
+    uid: factor
+    pwd: EEE@qxxtg123
+    host: kd01
+    db_name: kdbase
+    port: 3306
+    db_type: mysql
+  kdbase_03:
+    uid: factor
+    pwd: EEE@qxxtg123
+    host: kd03
+    db_name: kdbase
+    port: 3306
+    db_type: mysql
+  factor_01:
+    uid: factor
+    pwd: EEE@qxxtg123
+    host: kd01
+    db_name: factor_analysis
+    port: 3306
+    db_type: mysql_db
+  factor_03:
+    uid: factor
+    pwd: EEE@qxxtg123
+    host: kd03
+    db_name: factor_analysis
+    port: 3306
+    db_type: mysql_db
+  factor_data_01:
+    uid: factor
+    pwd: EEE@qxxtg123
+    host: kd01
+    db_name: kdbase
+    port: 3306
+    db_type: mysql
+  qsdata:
+    uid: admin
+    pwd: Intel@123
+    host: 192.168.100.145
+    db_name: wind_mem_jy
+    port: 3306
+    db_type: mysql
+  to_pull_em:
+    uid: interaction
+    pwd: Interaction@123
+    host: 192.168.100.201
+    db_name: em_interaction
+    port: 3306
+    db_type: mysql
+  to_pull_announcement_db:
+    uid: keydriver
+    pwd: 12345678
+    host: 192.168.100.199
+    db_name: announcement_db
+    port: 3306
+    db_type: mysql
+  to_pull_kd_news_process:
+    uid: keydriver
+    pwd: 12345678
+    host: 192.168.100.199
+    db_name: kd_news_process
+    port: 3306
+    db_type: mysql
+  to_pull_kd_quant_db:
+    uid: keydriver
+    pwd: 12345678
+    host: 192.168.100.199
+    db_name: kd_quant_db
+    port: 3306
+    db_type: mysql
+  to_pull_emsync:
+    uid: keydriver
+    pwd: 12345678
+    host: 192.168.100.199
+    db_name: emsync
+    port: 3306
+    db_type: mysql
+  to_pull_news:
+    uid: factor
+    pwd: EEE@qxxtg123
+    host: 192.168.100.201
+    db_name: keydriverdb_prod
+    port: 3306
+    db_type: mysql
+
+factor_cache:
+  #es_host: 10.1.0.223:9200
+  es_host: 192.168.100.199:9200
+  factor_read_concurrency: 2
+qsdata:
+  redis_host: redis://:Kandian@123@192.168.100.199:6379/2

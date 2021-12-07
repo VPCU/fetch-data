@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "192.168.100.201",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "to_pull_news",
+            "database": "to_pull_news",
+            "username": "factor",
+            "password": "EEE@qxxtg123"
+        }
+    ],
+    "python.analysis.extraPaths": [
+        "./gmoco_pretrain"
+    ]
+}

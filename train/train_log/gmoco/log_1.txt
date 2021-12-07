@@ -1,0 +1,19 @@
+Epoch: 1, Loss: 0.681382, Acc:0.567201, Test loss: 0.687715, Test acc: 0.543048
+Validation loss decreased (inf --> 0.687715).  Saving model ...
+Epoch: 2, Loss: 0.678987, Acc:0.573498, Test loss: 0.688494, Test acc: 0.543828
+EarlyStopping counter: 1 out of 7
+Epoch: 3, Loss: 0.677771, Acc:0.575787, Test loss: 0.688528, Test acc: 0.543852
+EarlyStopping counter: 2 out of 7
+Epoch: 4, Loss: 0.676729, Acc:0.577514, Test loss: 0.688002, Test acc: 0.544786
+EarlyStopping counter: 3 out of 7
+Epoch: 5, Loss: 0.675727, Acc:0.579524, Test loss: 0.688583, Test acc: 0.543757
+EarlyStopping counter: 4 out of 7
+Epoch: 6, Loss: 0.674763, Acc:0.580785, Test loss: 0.688386, Test acc: 0.544178
+EarlyStopping counter: 5 out of 7
+Epoch: 7, Loss: 0.673768, Acc:0.582688, Test loss: 0.689482, Test acc: 0.543267
+EarlyStopping counter: 6 out of 7
+Epoch: 8, Loss: 0.672890, Acc:0.584432, Test loss: 0.689293, Test acc: 0.543196
+EarlyStopping counter: 7 out of 7
+Early stopping
+Accuracy : 0.5430483800121316
+F1-score : 0.6470519810351402
